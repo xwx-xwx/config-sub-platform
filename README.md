@@ -1,4 +1,6 @@
-# Config Collector
+[**فارسی**](README.fa.md) | **English**
+
+# Better Config Collector
 
 A production-grade, curated V2Ray/VLESS/Trojan/ShadowSocks subscription aggregator.
 
