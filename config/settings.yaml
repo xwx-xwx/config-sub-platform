@@ -1,0 +1,36 @@
+output_limits:
+  mix: 300
+  cloudflare: 150
+  reality: 100
+  mobile: 100
+  fast: 50
+  clean: 100
+
+timeouts:
+  http: 15
+  tcp_connect: 3
+  tls_handshake: 5
+
+health:
+  enabled: true
+  concurrency: 20
+  tcp_timeout: 3
+
+sources:
+  telegram: true
+  github: true
+  subscriptions: true
+
+retry:
+  max_retries: 3
+  base_delay: 1.0
+  max_delay: 30.0
+
+logging:
+  level: INFO
+  format: simple
+
+output:
+  clash: false
+  raw: true
+  base64: true

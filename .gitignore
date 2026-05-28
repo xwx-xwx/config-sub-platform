@@ -8,3 +8,14 @@ coverage
 .idea
 .vscode
 *.suo
+
+# Project specific
+generated/*
+!generated/.gitkeep
+cache/*
+!cache/.gitkeep
+config/*.local.*
+*.session
+__pycache__/
+*.pyc
+.opencode/

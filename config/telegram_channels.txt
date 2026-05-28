@@ -1,0 +1,2 @@
+# Telegram channels to collect configs from
+# One channel per line, with or without @ prefix

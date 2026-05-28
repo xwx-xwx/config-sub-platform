@@ -1,0 +1,2 @@
+# Subscription URLs to collect configs from
+# One URL per line
