@@ -1,6 +1,5 @@
 from __future__ import annotations
 import re
-from typing import Optional
 
 LINK_PATTERN = re.compile(
     r"(vmess://[A-Za-z0-9+/=_-]+|vless://[^\s<>\"']+|trojan://[^\s<>\"']+|ss://[^\s<>\"']+)"

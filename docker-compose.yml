@@ -1,0 +1,15 @@
+version: "3.9"
+
+services:
+  collector:
+    build: .
+    container_name: config-collector
+    restart: unless-stopped
+    environment:
+      - TG_API_ID=${TG_API_ID}
+      - TG_API_HASH=${TG_API_HASH}
+      - GITHUB_TOKEN=${GITHUB_TOKEN}
+    volumes:
+      - ./config:/app/config:ro
+      - ./generated:/app/generated
+      - ./cache:/app/cache
