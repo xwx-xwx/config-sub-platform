@@ -5,15 +5,28 @@ on:
     - cron: "*/10 * * * *"
   workflow_dispatch:
 
+# Required so the auto-commit/push of generated subscriptions can write back to the fork.
+permissions:
+  contents: write
+
+# Avoid overlapping runs if a job overruns the 10-minute schedule.
+concurrency:
+  group: subscriptions-update
+  cancel-in-progress: false
+
 jobs:
   collect:
     runs-on: ubuntu-latest
+    timeout-minutes: 15
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout
+        uses: actions/checkout@v4
         with:
           fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
 
-      - uses: actions/setup-python@v5
+      - name: Set up Python
+        uses: actions/setup-python@v5
         with:
           python-version: "3.12"
           cache: "pip"
@@ -25,12 +38,21 @@ jobs:
         env:
           TG_API_ID: ${{ secrets.TG_API_ID }}
           TG_API_HASH: ${{ secrets.TG_API_HASH }}
+          TG_SESSION: ${{ secrets.TG_SESSION }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python main.py
 
       - name: Commit and push generated files
         run: |
-          git config user.name "github-actions"
-          git config user.email "actions@github.com"
-          git add generated/
-          git diff --staged --quiet || git commit -m "chore: update subscriptions [skip ci]"
-          git push
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          # .gitignore excludes generated/* by default; force-add so the
+          # published subscriptions actually get committed and pushed.
+          git add -f generated/ || true
+          if git diff --staged --quiet; then
+            echo "No subscription changes to commit"
+          else
+            git commit -m "chore: update subscriptions [skip ci]"
+            git push
+            echo "Pushed updated subscriptions"
+          fi

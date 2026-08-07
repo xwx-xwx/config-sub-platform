@@ -1,2 +1,3 @@
 # Subscription URLs to collect configs from
 # One URL per line
+https://raw.githubusercontent.com/xwx-xwx/config-sub-platform/main/config/manual_subs.txt

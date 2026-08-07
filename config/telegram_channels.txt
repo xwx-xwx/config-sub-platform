@@ -1,2 +1,6 @@
 # Telegram channels to collect configs from
 # One channel per line, with or without @ prefix
+
+@freeyule
+@VPN_Bot_Free
+@v2ray_freeconfigs
