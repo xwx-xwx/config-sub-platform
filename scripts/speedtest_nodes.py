@@ -188,7 +188,7 @@ def build_config(outbound):
     return cfg, port
 
 def probe_node(link, xray_bin, tmpdir):
-    """测速单节点，返回 (speed_bps, latency_s, name) 或 None"""
+    """测速单节点，返回 (speed_bps, latency_s, name, proto, link) 或 None"""
     parsed = parse_node(link)
     if not parsed:
         return None
@@ -216,7 +216,7 @@ def probe_node(link, xray_bin, tmpdir):
                 pass
             latency = time.time() - t0
             if speed > 1000:  # >1KB/s 才算可用
-                return (speed, latency, name, proto)
+                return (speed, latency, name, proto, link)
         finally:
             proc.terminate()
             try:
@@ -279,9 +279,9 @@ def main():
     top = results[:args.top]
     log(f"可用 {len(results)}，输出 Top {len(top)}")
 
-    lines = [f"# {time.strftime('%Y-%m-%d %H:%M')} | speed B/s | latency s | protocol | name", "# " + "-" * 60]
-    for speed, lat, name, proto in top:
-        lines.append(f"{int(speed)}\t{lat:.2f}\t{proto}\t{name}")
+    lines = [f"# {time.strftime('%Y-%m-%d %H:%M')} | speed B/s | latency s | protocol | name | link", "# " + "-" * 60]
+    for speed, lat, name, proto, link in top:
+        lines.append(f"{int(speed)}\t{lat:.2f}\t{proto}\t{name}\t{link}")
     with open(args.output, "w") as f:
         f.write("\n".join(lines) + "\n")
     print(f"DONE top={len(top)} out={args.output}")
