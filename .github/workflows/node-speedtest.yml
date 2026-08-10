@@ -1,0 +1,36 @@
+name: Node Speedtest
+on:
+  schedule:
+    - cron: '17 */6 * * *'   # 每 6 小时（避开整点拥堵）
+  workflow_dispatch:          # 支持手动触发
+jobs:
+  speedtest:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install curl
+        run: sudo apt-get update -q && sudo apt-get install -y -q curl
+
+      - name: Run node speedtest
+        run: |
+          python3 scripts/speedtest_nodes.py --top 20 --output generated/nodes_top20.txt
+        timeout-minutes: 40
+
+      - name: Commit and push top nodes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -f generated/nodes_top20.txt
+          if git diff --cached --quiet; then
+            echo "无变化，跳过提交"
+          else
+            git commit -m "chore: update top nodes $(date -u +'%Y-%m-%d %H:%M')"
+            git push
+          fi
