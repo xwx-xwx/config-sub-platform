@@ -18,7 +18,15 @@ async def collect_from_telegram(
     session: str = "anon",
     limit: int = 50,
 ) -> list[str]:
-    api_id = api_id or int(os.getenv("TG_API_ID", "0"))
+    # Actions 中未配置 secrets 时 ${{ secrets.TG_API_ID }} 为空字符串，
+    # int("") 会抛 ValueError 导致整个 pipeline 崩溃（2026-08-15 实测根因）。
+    # 统一做空值/非法值容错：非数字或空一律当作未配置。
+    raw_id = str(os.getenv("TG_API_ID", "") or "").strip()
+    if api_id is None:
+        try:
+            api_id = int(raw_id) if raw_id else 0
+        except ValueError:
+            api_id = 0
     api_hash = api_hash or os.getenv("TG_API_HASH", "")
 
     if not api_id or not api_hash:
