@@ -1,0 +1,1 @@
+vless://cf39fab0-bb85-42cb-9945-2ad69d78e575@188.114.97.6:443?path=%2FGOrbEh&security=tls&encryption=none&insecure=0&host=rubifen.adaspoloandco.com&fp=chrome&type=ws&allowInsecure=0&sni=rubifen.adaspoloandco.com#%E2%80%8E%F0%9F%9B%B0%EF%B8%8F%20%40TEHRANARGO%2069
