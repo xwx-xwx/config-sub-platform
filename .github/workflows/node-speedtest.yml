@@ -1,10 +1,10 @@
 name: Node Speedtest
 on:
   schedule:
-    - cron: '17 */6 * * *'   # 每 6 小时（避开整点拥堵）
+    - cron: '23 1,13 * * *'   # 每天 01:23 / 13:23（两次，避开整点拥堵；免费节点变化不快，12h 足够）
   workflow_dispatch:          # 支持手动触发
 
-# 允许 workflow 自动提交并 push 生成的节点文件（修复 exit 128: push 被拒）
+# 允许 workflow 自动提交并 push 生成的节点文件
 permissions:
   contents: write
 
@@ -23,22 +23,19 @@ jobs:
       - name: Install curl
         run: sudo apt-get update -q && sudo apt-get install -y -q curl
 
-      - name: Run node speedtest (300 freeclashnode nodes -> Top 20)
+      - name: Run node speedtest (300 nodes -> Top 20, output only)
         run: |
           # 测速源 = 本仓库根目录的 manual_subs_new.txt（300 条 freeclashnode 节点）
-          # 输出 Top 20 到 generated/nodes_top20.txt（脚本要求输出路径带目录），
-          # 再复制到根目录 manual_subs_new.txt，这样 Update Subscriptions 主订阅自动用快节点。
-          python3 scripts/speedtest_nodes.py --top 20 \
-            --sources "https://raw.githubusercontent.com/xwx-xwx/config-sub-platform/main/manual_subs_new.txt" \
-            --output generated/nodes_top20.txt
-          cp generated/nodes_top20.txt manual_subs_new.txt
+          # 输出 Top 20 到 generated/top20.txt（独立文件，绝不覆盖源文件，
+          # 避免上一次事故：空 Top20 覆盖 300 节点源导致订阅变空）。
+          python3 scripts/speedtest_nodes.py --top 20             --sources "https://raw.githubusercontent.com/xwx-xwx/config-sub-platform/main/manual_subs_new.txt"             --output generated/top20.txt
         timeout-minutes: 40
 
       - name: Commit and push top nodes
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -f manual_subs_new.txt generated/nodes_top20.txt
+          git add -f generated/top20.txt
           if git diff --cached --quiet; then
             echo "无变化，跳过提交"
           else
