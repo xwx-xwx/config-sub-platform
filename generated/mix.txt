@@ -174,7 +174,6 @@ vless://c6ba83a7-c4b5-481f-8f71-0f17deff0bf2@104.21.44.253:8080?security=none&ty
 vless://d028eaf5-c5ef-49a0-85c6-4f4816af8053@104.27.68.164:2086?security=none&type=ws&path=/eyJqdW5rIjoiZUJZR2pXVFByVyIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjEwOS4xMjAuMTU4LjE0OSJdfQ==?ed=2560&host=misty-bread-fd96.salehinezhadali.workers.dev&packetEncoding=xudp&encryption=none#%F0%9F%87%AB%F0%9F%87%B7FR_269%7C171KB%2Fs%2001
 vless://3adac494-0eb1-4d89-a187-b2181691444d@172.66.132.196:8880?security=none&type=ws&path=/pyip=ProxyIP.SG.CMLiussss.net&host=tiny-lake-bbf1.369-766.workers.dev&packetEncoding=xudp&encryption=none#%F0%9F%87%AB%F0%9F%87%B7FR_275%7C271KB%2Fs%2001
 vless://f15a5586-23f6-453f-97f5-c301b949e699@deepl.com:8880?security=none&type=ws&path=/pyip=ProxyIP.KR.CMLiussss.net&host=mute-sunset-0849.40-aeb.workers.dev&packetEncoding=xudp#%F0%9F%87%AB%F0%9F%87%B7FR_287%7C180KB%2Fs%2001
-vless://7b102311-43fd-4e8f-877e-8090623c101d@91.110.209.61:443?security=tls&type=ws&path=/&host=vp10.pages.dev&packetEncoding=xudp&sni=vp10.pages.dev&fp=chrome&encryption=none#%E9%A6%99%E6%B8%AF%2023
 vless://f2a97245-bf76-4eca-9119-110a9ebf38e4@13.212.82.58:2000?security=tls&type=ws&path=/@Marisa_kristi&host=2-gys60wmzb6bqzd.qpsjn114hh3vlph9z60sesz0agjawpwroneg.workers.dev&packetEncoding=xudp&sni=2-gys60wmzb6bqzd.qpsjn114hh3vlph9z60sesz0agjawpwroneg.workers.dev&fp=chrome&encryption=none#%F0%9F%87%B8%F0%9F%87%ACSG_1%7C126KB%2Fs%2001
 vless://11e9eea1-b1a9-4f02-a1a1-b24f7664b1cf@8.47.69.9:443?security=tls&type=ws&path=/eyJqdW5rIjoiYW1sczlYWkFHOCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0&host=ancient-heart-60c5.dpccgizieb.workers.dev&packetEncoding=xudp&sni=ancIEnt-HeaRt-60c5.dPccgIzieB.WoRKers.dEV&fp=chrome&encryption=none#%F0%9F%87%AB%F0%9F%87%B7FR_49%7C114KB%2Fs%7CB007-260618%2001
 vless://99ab6748-3d57-4562-9451-843c15960b9b@109.120.155.155:444?security=tls&type=ws&path=/@Marisa_kristi&host=ke859ch2gse1iery3hiz.e3q4a5mjld11kpj0zj8dq.workers.dev&packetEncoding=xudp&sni=ke859ch2gse1iery3hiz.e3q4a5mjld11kpj0zj8dq.workers.dev&fp=chrome&encryption=none#%F0%9F%87%A9%F0%9F%87%AADE_2%7C359KB%2Fs%7CC002-260622%2001
@@ -238,7 +237,6 @@ ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.210:8
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@82.38.31.32:443#%F0%9F%87%B3%F0%9F%87%B1NL_3%7C157KB%2Fs%2001
 trojan://2eutknankxtbgkwcajzt@193.148.19.213:52794?sni=193.148.19.213&allowInsecure=1&type=tcp&fp=chrome#%F0%9F%87%AA%F0%9F%87%B8ES_9%7C284KB%2Fs%7CA004-260618%2001
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@82.38.31.39:8080#%F0%9F%87%B3%F0%9F%87%B1NL_4%7C395KB%2Fs%2001
-vless://9f0285ee-20ca-4953-bcdb-86a920652923@204.216.216.23:10086?security=none&type=raw&packetEncoding=xudp&encryption=none#%F0%9F%87%AE%F0%9F%87%B9IT_1%7C415KB%2Fs%2001
 ss://YWVzLTI1Ni1nY206WTZSOXBBdHZ4eHptR0M=@92.118.205.211:5600#%F0%9F%87%B5%F0%9F%87%B1PL_1%7C395KB%2Fs%2001
 trojan://y3b03zx3tznhyo538p4c@86.106.84.195:53261?sni=86.106.84.195&allowInsecure=1&type=tcp&fp=chrome#%F0%9F%87%A8%F0%9F%87%ADCH_2%7C193KB%2Fs%7CA004-260618%2001
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.179:8080#%F0%9F%87%B3%F0%9F%87%B1NL_6%7C236KB%2Fs%7CA003-260618%2001
@@ -252,6 +250,7 @@ ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.199:8
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.182:8080#%F0%9F%87%B3%F0%9F%87%B1NL_14%7C189KB%2Fs%7CA004-260618%2001
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@82.38.31.7:8080#%F0%9F%87%B3%F0%9F%87%B1NL_15%7C334KB%2Fs%7CA004-260618%2001
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@82.38.31.35:443#%F0%9F%87%B3%F0%9F%87%B1NL_16%7C114KB%2Fs%7CA004-260618%2001
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@193.29.139.151:8080#%F0%9F%87%B3%F0%9F%87%B1NL_17%7C259KB%2Fs%7CA004-260618%2001
 trojan://kkzh2prsyr2ik47as615@64.94.95.118:57142?sni=64.94.95.118&allowInsecure=1&type=tcp&fp=chrome#%F0%9F%87%BA%F0%9F%87%B8US_452%7C283KB%2Fs%7CB007-260618%2001
 trojan://pvZE3UfT0ziK1omVLlsjINBqeqqwab1M@139.59.238.97:50573?sni=139.59.238.97&allowInsecure=1&type=tcp&fp=chrome#%F0%9F%87%B8%F0%9F%87%ACSG_27%7C290KB%2Fs%7CB007-260618%2001
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.204:8080#%F0%9F%87%B3%F0%9F%87%B1NL_22%7C170KB%2Fs%7CA003-260618%2001
@@ -287,6 +286,7 @@ vless://CB9C296F-A571-4B73-961E-142D832F35D0@18.162.41.55:10127?security=reality
 vless://906be882-7f16-47c3-8702-59db2ada9688@2.26.82.237:443?security=reality&type=grpc&mode=gun&serviceName=grpc&packetEncoding=xudp&sni=speed.cloudflare.com&fp=chrome&pbk=VmBEjLUpiEnoNIaPNGDfVPIOzH_ktSDdsGGAvissxgI&encryption=none#%F0%9F%87%AC%F0%9F%87%A7GB_1%7C371KB%2Fs%2001
 vless://c40f773e-3b96-417e-b22c-e48cb63ca7d9@144.31.87.16:2096?security=reality&type=grpc&mode=gun&serviceName=grpc&packetEncoding=xudp&sni=www.ya.ru&fp=chrome&sid=a7bf40db1b0e566a&pbk=HdIk7jX58DtK-PGVKoU587O4w1KrDiej1qz8J2SmRA8&encryption=none#%E2%9D%93Other_2%7C317KB%2Fs%7CX001-260618%2001
 vless://7b102311-43fd-4e8f-877e-8090623c101d@proxyip.hk.cmliussss.net:443?security=tls&type=ws&path=/&host=vp10.pages.dev&packetEncoding=none&sni=vp10.pages.dev&fp=chrome#%E9%A6%99%E6%B8%AF%2024
+vless://7b102311-43fd-4e8f-877e-8090623c101d@91.110.209.61:443?security=tls&type=ws&path=/&host=vp10.pages.dev&packetEncoding=xudp&sni=vp10.pages.dev&fp=chrome&encryption=none#%E9%A6%99%E6%B8%AF%2023
 trojan://BxceQaOe@18.163.113.86:11035?sni=t.me%2Fripaojiedian&allowInsecure=1&type=tcp#%E9%A6%99%E6%B8%AF%2043
 trojan://BxceQaOe@18.163.113.86:25982?sni=t.me%2Fripaojiedian&allowInsecure=1&type=tcp#%E9%A6%99%E6%B8%AF%2044
 ss://YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW@103.186.155.80:38388#%F0%9F%87%BB%F0%9F%87%B3VN%C2%B2_2%7C1.6MB%2Fs%7CGPT%7CX%7CHistory%2001
@@ -295,6 +295,6 @@ ss://YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFN
 ss://YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW@103.186.155.206:38388#%E5%8E%9F%E7%94%9F%E6%9C%BA%E6%88%BF%2001
 ss://YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW@103.186.154.173:38388#%F0%9F%87%BB%F0%9F%87%B3VN%C2%B2_6%7C0.5MB%2Fs%7CGPT%7CYT%7CX%7CHistory%2001
 ss://YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW@103.186.155.16:38388#%F0%9F%87%B8%F0%9F%87%ACSG%C2%B2_1%7C2.4MB%2Fs%7CX%7CHistory%2001
+vless://9f0285ee-20ca-4953-bcdb-86a920652923@204.216.216.23:10086?security=none&type=raw&packetEncoding=xudp&encryption=none#%F0%9F%87%AE%F0%9F%87%B9IT_1%7C415KB%2Fs%2001
 ss://YWVzLTI1Ni1nY206bEdxczk1UWtGSG8yTlY=@38.244.132.14:5499#%F0%9F%87%A7%F0%9F%87%ACBG_1%7C271KB%2Fs%2001
 ss://YWVzLTI1Ni1nY206UmV4bkJnVTdFVjVBRHhH@185.213.20.110:7001#%F0%9F%87%AE%F0%9F%87%B9IT_2%7C384KB%2Fs%7CA004-260618%2001
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@193.29.139.151:8080#%F0%9F%87%B3%F0%9F%87%B1NL_17%7C259KB%2Fs%7CA004-260618%2001
