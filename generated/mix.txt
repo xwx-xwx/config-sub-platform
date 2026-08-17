@@ -69,7 +69,6 @@ vless://814bd064-544d-4255-a070-5705c03f6da9@3.0.111.82:10574?security=reality&t
 vless://795d5f5b-318c-49a6-844f-ee2ab63bbe94@35.180.187.82:12228?security=reality&type=tcp&packetEncoding=xudp&sni=www.tesla.com&fp=chrome&flow=xtls-rprx-vision&sid=59625eb3275249ca&pbk=hvyaRhFtrj3cGv1Ya5uXpE256i2PoUi2fOgU0KlvKmI&encryption=none#%F0%9F%87%AB%F0%9F%87%B7FR_283%7C201KB%2Fs%2001
 vless://814bd064-544d-4255-a070-5705c03f6da9@3.39.4.109:18967?security=reality&type=raw&packetEncoding=xudp&sni=www.apple.com&fp=chrome&flow=xtls-rprx-vision&sid=48050fab&pbk=k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0#%F0%9F%87%B0%F0%9F%87%B7KR_3%7C222KB%2Fs%2001
 vless://40de6299-d792-4868-8a82-411ead0aa943@144.124.249.252:443?security=reality&type=raw&packetEncoding=xudp&sni=gateway.icloud.com&fp=chrome&flow=xtls-rprx-vision&sid=ed7b9bdfedb9b8e5&pbk=L0acYoTxKR5ix7LXAmP10cy06n2JjgkXTojGjtWAqww&encryption=none#%F0%9F%87%B3%F0%9F%87%B1NL_43%7C386KB%2Fs%2001
-vless://7b102311-43fd-4e8f-877e-8090623c101d@proxyip.hk.cmliussss.net:443?security=tls&type=ws&path=/&host=vp10.pages.dev&packetEncoding=none&sni=vp10.pages.dev&fp=chrome#%E9%A6%99%E6%B8%AF%2024
 trojan://humanity@104.17.111.8:443?sni=www.ignitelimit.com&type=ws&path=/assignment&fp=chrome#%F0%9F%87%AB%F0%9F%87%B7FR_2%7C339KB%2Fs%2001
 vless://4c37df21-0a34-41bf-8bc7-78efd823c03b@172.66.200.130:8880?security=none&type=ws&path=/pyip=ProxyIP.SG.CMLiussss.net&host=shiny-salad-e491.479.workers.dev&packetEncoding=xudp&encryption=none#%F0%9F%87%AB%F0%9F%87%B7FR_3%7C430KB%2Fs%2001
 vless://2fb22d40-598f-4890-85a6-d69928b1fd55@104.16.107.139:8880?security=none&type=ws&path=/pyip=ProxyIP.SG.CMLiussss.net&host=odd-cloud-f2a1.73-12e.workers.dev&packetEncoding=xudp&encryption=none#%F0%9F%87%AB%F0%9F%87%B7FR_5%7C374KB%2Fs%2001
@@ -117,6 +116,7 @@ trojan://humanity@104.18.152.204:443?sni=www.ignitelimit.com&type=ws&path=/assig
 vless://3087ca05-1a7c-45fa-aec9-805adeaedb1b@162.159.252.211:80?security=none&type=ws&path=/?ed=2560&host=tianshu.kevqwkt451.workers.dev&packetEncoding=xudp&encryption=none#%F0%9F%87%AB%F0%9F%87%B7FR_81%7C324KB%2Fs%7CC002-260622%2001
 vless://52fb52b1-82de-4c6f-b7d3-599ce5d57f1c@upwork.com:8880?security=none&type=ws&path=/pyip=ProxyIP.SG.CMLiussss.net&host=damp-disk-1ae9.138-c4c.workers.dev&packetEncoding=xudp#%F0%9F%87%AB%F0%9F%87%B7FR_82%7C224KB%2Fs%7CC002-260622%2001
 vless://ef23616d-8a9d-4b22-b2f5-9bda864de179@104.17.95.220:2052?security=none&type=ws&path=/7u2613qopnft&host=index.arcane509.workers.dev&ed=2560&packetEncoding=xudp#%F0%9F%87%AB%F0%9F%87%B7FR_83%7C100KB%2Fs%7CC002-260622%2001
+vless://83744063-3ddc-4ed9-b6e5-d207ce6ed48e@www.baipiao.eu.org:8880?security=none&type=ws&path=/pyip=ProxyIP.KR.CMLiussss.net&host=still-pine-d15e.368-b2a.workers.dev&packetEncoding=xudp#%F0%9F%87%AB%F0%9F%87%B7FR_84%7C160KB%2Fs%7CC002-260622%2001
 vless://5659b42c-636f-4563-ac41-87d565d0dd1e@cf9.466688.xyz:8880?security=none&type=ws&path=/pyip=ProxyIP.JP.autumniussss.net&host=autumn-base-0eb9.116-d25.workers.dev&packetEncoding=xudp&encryption=none#%F0%9F%87%AB%F0%9F%87%B7FR_85%7C260KB%2Fs%7CC002-260622%2001
 vless://80cead8e-0d28-4b0a-bacd-8005471a5c39@104.20.28.74:8880?security=none&type=ws&path=/pyip=ProxyIP.KR.CMLiussss.net&host=flat-fire-40ed.96-042.workers.dev&packetEncoding=xudp&encryption=none#%F0%9F%87%AB%F0%9F%87%B7FR_87%7C268KB%2Fs%7CC002-260622%2001
 vless://bba14c1d-f08c-4c9a-ac87-cf85d38d8aff@188.114.96.3:2086?security=none&type=ws&path=/eyJqdW5rIjoiSjZsY01ZdmlLM1ciLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByZWZpeCIsInBhbmVsSVBzIjpbIlsyYTAyOjg5ODoxNDY6NjQ6Ol0iXX0&host=tight-thunder-ce8e.hamid-r-aliakbari1379-0f0.workers.dev&packetEncoding=xudp&encryption=none#%F0%9F%87%AB%F0%9F%87%B7FR_88%7C356KB%2Fs%7CC002-260622%2001
@@ -227,7 +227,6 @@ trojan://ND91608427@185.244.208.210:443?sni=upright-hamster.rooster465.autos&typ
 trojan://BxceQaOe@18.162.120.218:11035?sni=t.me/ripaojiedian&allowInsecure=1&type=tcp&fp=chrome#%E9%A6%99%E6%B8%AF%2026
 trojan://AE62539071@novel-mouse.rooster465.autos:443?sni=novel-mouse.rooster465.autos&type=tcp&fp=chrome#%E9%A6%99%E6%B8%AF%2030
 trojan://AE62539071@magical-kodiak.rooster465.autos:443?sni=magical-kodiak.rooster465.autos&type=tcp&fp=chrome#%E9%A6%99%E6%B8%AF%2031
-trojan://AE62539071@upright-bedbug.rooster465.autos:443?sni=upright-bedbug.rooster465.autos&type=tcp&fp=chrome#%E9%A6%99%E6%B8%AF%2032
 trojan://AE62539071@wealthy-loon.rooster465.autos:443?sni=wealthy-loon.rooster465.autos&type=tcp&fp=chrome#%E9%A6%99%E6%B8%AF%2033
 trojan://AE62539071@modest-foal.rooster465.autos:443?sni=modest-foal.rooster465.autos&type=tcp&fp=chrome#%E9%A6%99%E6%B8%AF%2034
 trojan://AE62539071@strong-haddock.rooster465.autos:443?sni=strong-haddock.rooster465.autos&type=tcp&fp=chrome#%E9%A6%99%E6%B8%AF%2035
@@ -286,7 +285,8 @@ vless://CB9C296F-A571-4B73-961E-142D832F35D0@hk2-r.link-t7.com:10127?security=re
 vless://CB9C296F-A571-4B73-961E-142D832F35D0@18.162.41.55:10127?security=reality&type=grpc&mode=gun&serviceName=update&packetEncoding=none&sni=s0.awsstatic.com&fp=chrome&sid=686c0ef0&pbk=wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE#%E9%A6%99%E6%B8%AF%2042
 vless://906be882-7f16-47c3-8702-59db2ada9688@2.26.82.237:443?security=reality&type=grpc&mode=gun&serviceName=grpc&packetEncoding=xudp&sni=speed.cloudflare.com&fp=chrome&pbk=VmBEjLUpiEnoNIaPNGDfVPIOzH_ktSDdsGGAvissxgI&encryption=none#%F0%9F%87%AC%F0%9F%87%A7GB_1%7C371KB%2Fs%2001
 vless://c40f773e-3b96-417e-b22c-e48cb63ca7d9@144.31.87.16:2096?security=reality&type=grpc&mode=gun&serviceName=grpc&packetEncoding=xudp&sni=www.ya.ru&fp=chrome&sid=a7bf40db1b0e566a&pbk=HdIk7jX58DtK-PGVKoU587O4w1KrDiej1qz8J2SmRA8&encryption=none#%E2%9D%93Other_2%7C317KB%2Fs%7CX001-260618%2001
-vless://83744063-3ddc-4ed9-b6e5-d207ce6ed48e@www.baipiao.eu.org:8880?security=none&type=ws&path=/pyip=ProxyIP.KR.CMLiussss.net&host=still-pine-d15e.368-b2a.workers.dev&packetEncoding=xudp#%F0%9F%87%AB%F0%9F%87%B7FR_84%7C160KB%2Fs%7CC002-260622%2001
+vless://7b102311-43fd-4e8f-877e-8090623c101d@proxyip.hk.cmliussss.net:443?security=tls&type=ws&path=/&host=vp10.pages.dev&packetEncoding=none&sni=vp10.pages.dev&fp=chrome#%E9%A6%99%E6%B8%AF%2024
+trojan://AE62539071@upright-bedbug.rooster465.autos:443?sni=upright-bedbug.rooster465.autos&type=tcp&fp=chrome#%E9%A6%99%E6%B8%AF%2032
 trojan://BxceQaOe@18.163.113.86:11035?sni=t.me%2Fripaojiedian&allowInsecure=1&type=tcp#%E9%A6%99%E6%B8%AF%2043
 trojan://BxceQaOe@18.163.113.86:25982?sni=t.me%2Fripaojiedian&allowInsecure=1&type=tcp#%E9%A6%99%E6%B8%AF%2044
 ss://YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW@103.186.155.80:38388#%F0%9F%87%BB%F0%9F%87%B3VN%C2%B2_2%7C1.6MB%2Fs%7CGPT%7CX%7CHistory%2001
